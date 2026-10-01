@@ -1,19 +1,19 @@
 package ru.german;
 
 public class FigureUtil {
-    public boolean compareArea(Figure a, Figure b) {
+    public String compareArea(Figure a, Figure b) {
         if (a.getArea() == b.getArea()) {
-            return true;
+            return "Площади фигур равны.";
         } else {
-            return false;
+            return "Площади фигур не равны, разница = " + (a.getArea() - b.getArea());
         }
     }
 
-    public boolean comparePerimeter(Figure a, Figure b) {
+    public String comparePerimeter(Figure a, Figure b) {
         if (a.getPerimeter() == b.getPerimeter()) {
-            return true;
+            return "Периметры равны.";
         } else {
-            return false;
+            return "Периметры не равны разница = " + (a.getPerimeter() - b.getPerimeter());
         }
     }
 }
