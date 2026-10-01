@@ -21,9 +21,9 @@ public class Rectangle implements Figure {
 
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "height=" + height +
-                ", weight=" + weight +
+        return "Прямоугольник {" +
+                "высота=" + height +
+                ", ширина=" + weight +
                 '}';
     }
 }

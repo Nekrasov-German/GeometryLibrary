@@ -59,10 +59,10 @@ public class Triangle implements Figure {
 
     @Override
     public String toString() {
-        return "Triangle{" +
-                "sideA=" + sideA +
-                ", sideB=" + sideB +
-                ", sideC=" + sideC +
+        return "Треугольник{" +
+                "Сторона A=" + sideA +
+                ", Сторона B=" + sideB +
+                ", Сторона C=" + sideC +
                 '}';
     }
 }

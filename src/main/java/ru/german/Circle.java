@@ -22,8 +22,8 @@ public class Circle implements Figure {
 
     @Override
     public String toString() {
-        return "Circle{" +
-                "radius=" + radius +
+        return "Круг{" +
+                "радиус=" + radius +
                 '}';
     }
 }
